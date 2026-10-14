@@ -1,0 +1,28 @@
+# Gradle / Android
+.gradle/
+build/
+*/build/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+.cxx/
+captures/
+*.iml
+.idea/
+.DS_Store
+gradle-app.setting
+
+# Kotlin
+*.class
+
+# iOS / Xcode
+ios/**/*.xcodeproj/xcuserdata/
+ios/**/*.xcworkspace/xcuserdata/
+ios/DerivedData/
+ios/*.xcuserstate
+Pods/
+
+# Logs
+*.log

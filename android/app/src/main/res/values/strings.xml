@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Lilac</string>
+    <string name="tagline">локальный MTProto → WebSocket прокси</string>
+
+    <string name="status_idle">Остановлен</string>
+    <string name="status_running">Работает на порту %1$d</string>
+    <string name="start">Запустить прокси</string>
+    <string name="stop">Остановить</string>
+
+    <string name="section_access">Доступ</string>
+    <string name="secret_label">Секрет прокси (32 hex)</string>
+    <string name="secret_regenerate">Новый</string>
+    <string name="secret_invalid">Секрет должен быть 32 hex-символа</string>
+    <string name="open_telegram">Открыть ссылку в Telegram</string>
+    <string name="telegram_missing">Telegram не установлен</string>
+    <string name="copy_link">Ссылка скопирована</string>
+    <string name="copy_link_title">Скопировать ссылку</string>
+
+    <string name="section_transport">Транспорт</string>
+    <string name="port_label">Порт на 127.0.0.1</string>
+    <string name="prefer_ws">Сначала WebSocket (kws*.web.telegram.org)</string>
+    <string name="tcp_fallback">Разрешить прямой TCP к DC</string>
+    <string name="transport_hint">WebSocket идёт по 443 и похож на обычный HTTPS-трафик. TCP fallback подключается к IP дата-центра напрямую и срабатывает, когда WS недоступен.</string>
+
+    <string name="section_dc">Дата-центры</string>
+    <string name="dc_custom_hint">Свой адрес для TCP fallback (IP или домен). Пусто — адрес по умолчанию.</string>
+
+    <string name="section_stats">Статистика</string>
+    <string name="stat_connections">Соединений всего</string>
+    <string name="stat_active">Активных</string>
+    <string name="stat_ws">Через WS</string>
+    <string name="stat_tcp">Через TCP</string>
+    <string name="stat_bad">Отклонено</string>
+    <string name="stat_up">Отправлено</string>
+    <string name="stat_down">Получено</string>
+
+    <string name="section_logs">Журнал</string>
+    <string name="logs_clear">Очистить</string>
+    <string name="logs_empty">Пока пусто</string>
+
+    <string name="channel_name">Прокси Telegram</string>
+    <string name="channel_description">Показывает, что локальный прокси запущен</string>
+    <string name="notification_title">Lilac работает</string>
+    <string name="notification_summary">↑ %1$s · ↓ %2$s · %3$d соединений</string>
+    <string name="notification_stop">Остановить</string>
+
+    <string name="notice_battery">Android может убивать фоновый сервис. На этом экране держите приложение открытым, а в настройках батареи отключите оптимизацию для Lilac.</string>
+    <string name="notice_battery_ok">Понятно</string>
+</resources>
